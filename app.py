@@ -20,21 +20,21 @@ h1 {
     color:red;
 }
 
+img {
+     max-height: 300px;
+}
+ 
+.stVerticalBlock div {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
 
-# 예제)CSS Style
-# img {
-#      max-height: 300px;
-#  }
- 
-# .stVerticalBlock div {
-#     display: flex;
-#     justify-content: center;
-#     font-size: 15px;
-# }
-    
+# 예제)CSS Style    
 # [data-testid="stIconMaterial"] {
 #     visibility: hidden;
 # }    
